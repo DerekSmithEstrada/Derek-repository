@@ -27,7 +27,7 @@ li{
     text-align: right;
     text-align: top;
     font-size: larger;
-    font-size: 20px;
+    font-size: 85%;
 }
 
 .menu2 {
@@ -64,13 +64,13 @@ header ul li a{
 
 .product{
     position: relative;
-    width: 100px;
-    height: 100px;
+    width: 125px;
+    height: 125px;
 }
 
 .product img{
     height: 100%;
-    border-radius: 100px;
+    border-radius: 125px;
     border-style: solid;
     border-color: white;
 }
@@ -83,18 +83,20 @@ header ul li a{
     position: fixed;
     left: 0;
     top: 0;
+    text-align:center;
     width: 100%;
     height: 100%;
     overflow: auto;
     background-color: rgba(0,0,0,0.4);
 }
 .modal-content{
-    margin: auto;
+    margin:  auto;
     background-color:steelblue;
     position: relative;
     padding: 0;
     outline: 0;
-    width: 600px;
+    width: 800px;
+    height: 600px;
 }
 
 .modal-button {
@@ -110,6 +112,14 @@ header ul li a{
     cursor: pointer;
     white-space: nowrap;
 }
+
+.modal-title {
+    font-size:48px;
+}
+.modal-desc {
+    font-size:22px;
+}
+
 .display-topright {
     position: absolute;
     right: 0;
@@ -126,8 +136,8 @@ h2{
 }
 
 .v-music{
-    width: 100px;
-    border-radius: 100px;
+    width: 150px;
+    border-radius: 150px;
     border-style: solid;
     border-color: black;
     margin-left: 10px;
@@ -157,6 +167,24 @@ p{
     margin-left: 10px;
 }
 
+#myInput {
+    background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+    background-position: 10px 12px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 100%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+  }
+  
+  #myUL {
+    /* Remove default list styling */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
 @media (max-width: 768px){
 
     #products{
@@ -168,6 +196,22 @@ p{
     }
 
     footer{width: 100%;}
+
+    .modal{
+    }
+    .modal-content{
+        width: auto;
+        height: auto;
+        margin:  30px;
+    }
+
+    .modal-title {
+        font-size:8vw;
+    }
+    .modal-desc {
+        font-size:5vw;
+    }
+
 
 }
 
