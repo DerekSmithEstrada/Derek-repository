@@ -64,8 +64,8 @@ header ul li a{
 
 .product{
     position: relative;
-    width: 125px;
-    height: 125px;
+    width: 110px;
+    height: 110px;
 }
 
 .product img{
@@ -160,6 +160,18 @@ p{
     color: white;
 }
 
+ul{
+    color: white;
+}
+
+ol{
+    color: white;
+}
+
+#titulodetalles{
+    color: steelblue;
+}
+
 .deezer{
     width: 50px;
     border-style: solid;
@@ -195,10 +207,10 @@ p{
         width: 100%;
     }
 
-    footer{width: 100%;}
-
-    .modal{
+    footer{
+        width: 100%;
     }
+
     .modal-content{
         width: auto;
         height: auto;
